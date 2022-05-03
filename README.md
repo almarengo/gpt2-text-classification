@@ -2,6 +2,14 @@
 
 Text classification (sentiment analysis) on tweets using GPT2 and transfer learning
 
+In this project we classify the tweets (sentiment analysis) like we did in this other project [COVID Tweets Analysis](https://github.com/almarengo/COVID_Tweet_Analysis) (Notebook 3) where we used logistic regression and random forest. 
+
+The dataset can be found in the same repository.
+
+<br/>
+
+
+## 🤖 GPT2 Model
 
 <img align="left" src="image/gpt2.png" width="250"/>
 
@@ -32,7 +40,8 @@ last_hidden_states = outputs.last_hidden_state
 
 <br clear="left"/>
 
+<br/>
 
+## Conclusions
 
-
-Fine tuning GPT2 on text classification with Tensorflow.
+We tried fine-tuning a pre-trained model (GPT2) and comparing the accurancy with our previous logistic and random forest models. Overall the model doesn't seem to outperform them. It's worth noticeing that the model is overfitting so it would be nice to re-train it, playing with learning rate, weight decay and dropout rate.
