@@ -44,4 +44,4 @@ last_hidden_states = outputs.last_hidden_state
 
 ## Conclusions
 
-We tried fine-tuning a pre-trained model (GPT2) and comparing the accurancy with our previous logistic and random forest models. Overall the model doesn't seem to outperform them. It's worth noticeing that the model is overfitting so it would be nice to re-train it, playing with learning rate, weight decay and dropout rate.
+We tried to fine-tune GPT2 and compare its accurancy with our previous logistic and random forest models. Overall the model doesn't seem to outperform them. It's worth noticing that the model is overfitting so it would be nice to re-train it, playing with learning rate, weight decay and dropout rate.
